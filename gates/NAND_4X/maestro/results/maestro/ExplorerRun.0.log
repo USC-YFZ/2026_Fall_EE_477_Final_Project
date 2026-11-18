@@ -1,0 +1,13 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Oct 24 16:13:41 2026 
+Best design point: 1
+Design specs: 
+	gates_NAND_1X_1	corner	Nominal - 
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sat Oct 24 16:13:59 2026 
