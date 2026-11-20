@@ -1,0 +1,21 @@
+radix 1 1 1 1 1 1 1 1
+io    i i i i i i i i
+vname S_IDLE S_ADD S_SUB S_AND S_OR S_XOR S_SHL S_DONE
+
+; --- Timing information ---
+tunit 1ns
+trise 0.01
+tfall 0.01
+vih   1.0
+vil   0.0
+
+; time(ns)  S_IDLE S_ADD S_SUB S_AND S_OR S_XOR S_SHL S_DONE
+0        1      0     0     0     0    0     0     0
+10       0      1     0     0     0    0     0     0
+20       0      0     1     0     0    0     0     0
+30       0      0     0     1     0    0     0     0
+40       0      0     0     0     1    0     0     0
+50       0      0     0     0     0    1     0     0
+60       0      0     0     0     0    0     1     0
+70       0      0     0     0     0    0     0     1
+80       0      0     0     0     0    0     0     1

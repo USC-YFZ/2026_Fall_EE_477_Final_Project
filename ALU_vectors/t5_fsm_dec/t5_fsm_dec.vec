@@ -1,0 +1,21 @@
+radix 1 1 1
+io    i i i
+vname s0 s1 s2
+
+; --- Timing information ---
+tunit 1ns
+trise 0.01
+tfall 0.01
+vih   1.0
+vil   0.0
+
+; time(ns)  s0 s1 s2
+0        0  0  0
+10       1  0  0
+20       0  1  0
+30       1  1  0
+40       0  0  1
+50       1  0  1
+60       0  1  1
+70       1  1  1
+80       1  1  1

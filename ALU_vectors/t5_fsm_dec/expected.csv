@@ -1,0 +1,9 @@
+strobe_ns,s[2:0],the one output that is 1
+9.0,000,S_IDLE
+19.0,001,S_ADD
+29.0,010,S_SUB
+39.0,011,S_AND
+49.0,100,S_OR
+59.0,101,S_XOR
+69.0,110,S_SHL
+79.0,111,S_DONE
